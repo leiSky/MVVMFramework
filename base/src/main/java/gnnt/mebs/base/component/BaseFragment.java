@@ -48,6 +48,9 @@ public abstract class BaseFragment<T extends BaseViewModel> extends Fragment {
      */
     protected abstract int getLayoutResource();
 
+    protected View inflateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState){
+        return inflater.inflate(getLayoutResource(), container, false);
+    }
     /**
      * 获取要创建的ViewModel.class
      *
@@ -76,7 +79,7 @@ public abstract class BaseFragment<T extends BaseViewModel> extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         // 绑定布局
-        View rootView = inflater.inflate(getLayoutResource(), container, false);
+        View rootView = inflateView(inflater,container,savedInstanceState);
         ButterKnife.bind(this, rootView);
 
         // 先初始化View
