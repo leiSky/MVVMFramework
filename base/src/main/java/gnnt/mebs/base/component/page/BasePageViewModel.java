@@ -163,9 +163,9 @@ public abstract class BasePageViewModel<Data> extends BaseViewModel {
                 mTotalCount.setValue(listResponse.total);
                 // 判断是否有更多数据
                 if (hasMoreData(listResponse)) {
-                    mHasMoreData.setValue(false);
-                } else {
                     mHasMoreData.setValue(true);
+                } else {
+                    mHasMoreData.setValue(false);
                 }
             }
         }
