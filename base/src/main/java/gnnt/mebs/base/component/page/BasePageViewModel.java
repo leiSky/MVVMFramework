@@ -178,8 +178,8 @@ public abstract class BasePageViewModel<Data> extends BaseViewModel {
      * @return true 有更多数据，false 没有更多数据
      */
     public boolean hasMoreData(ListResponse listResponse) {
-        return mData.getValue().size() >= listResponse.total || listResponse.resultList == null ||
-                listResponse.resultList.isEmpty();
+        return mData.getValue().size() < listResponse.total && !(listResponse.resultList == null ||
+                listResponse.resultList.isEmpty());
     }
 
     public static class ListResponse<Data> {
