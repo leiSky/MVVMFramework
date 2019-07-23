@@ -40,6 +40,6 @@ public class PoetryFileRepository extends FileRepository<Poetry> {
     public Single<Poetry> loadRemoteData() {
         return mOpenApi.getRandomPoetry()
                 .onErrorResumeNext(Single.<Response<Poetry>>error(new LoadException("网络出错了")))
-                .map(new UnpackHandler<Poetry>());
+                . map(new UnpackHandler<Poetry>());
     }
 }

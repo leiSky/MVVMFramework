@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="item_func_menu">
+        <item>编辑</item>
+        <item>删除</item>
+    </string-array>
+
+    <string-array name="history_item_sort_menu">
+        <item>按时间查看</item>
+        <item>按顺序查看</item>
+    </string-array>
+
+    <string-array name="week_daily_sort_menu">
+        <item>按时间分组</item>
+        <item>按项目分组</item>
+    </string-array>
+
+</resources>

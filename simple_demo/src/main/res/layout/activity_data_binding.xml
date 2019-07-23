@@ -8,6 +8,9 @@
         <variable
             name="viewModel"
             type="gnnt.mebs.simpledemo.demo2_dataBinding.DataBindingViewModel" />
+        <variable
+            name="name"
+            type="String" />
     </data>
 
 

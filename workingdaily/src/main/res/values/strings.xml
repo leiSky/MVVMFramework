@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">日报</string>
+
+    <!--登录相关-->
+    <string name="login_title">用户登录</string>
+    <string name="user_name_hint">请输入用户名</string>
+    <string name="user_pwd_hint">请输入密码</string>
+    <string name="vertify_code_hint">请输入验证码</string>
+    <string name="check_box_save_pwd_text">记住密码</string>
+    <string name="login_btn_text">登录</string>
+    <string name="reset_btn_text">重置</string>
+    <string name="login_success">登录成功</string>
+
+    <!--菜单相关-->
+    <string name="func_select_page_title">菜单</string>
+    <string name="home_page_title">当前日报</string>
+    <string name="history_page_title">历史日报</string>
+    <string name="week_daily_title">周报</string>
+    <string name="about_page_title">关于我们</string>
+    <string name="setting_page_title">设置</string>
+
+    <!--当前日报-->
+    <string name="modify_page_title">修改日报</string>
+    <string name="delete_tip">删除日报后不可恢复,确定要删除吗?</string>
+
+    <!--添加日报-->
+    <string name="add_page_title">添加日报</string>
+    <string name="add_close_btn_text">关闭</string>
+    <string name="add_save_btn_text">保存</string>
+    <string name="project_tip_text">所属项目</string>
+    <string name="project_content_hint">请选择项目</string>
+    <string name="work_type_tip_text">工作性质</string>
+    <string name="work_type_content_hint">请选择性质</string>
+    <string name="start_time_tip_text">开始时间</string>
+    <string name="start_time_content_hint">请选择开始时间</string>
+    <string name="end_time_tip_text">结束时间</string>
+    <string name="end_time_content_hint">请选择结束时间</string>
+    <string name="add_daily_conetnt_hint">请填写工作内容</string>
+    <string name="exit_tip">退出后,填写的内容将不会保存,确定要退出吗?</string>
+    <string name="ok_btn_text">确定</string>
+    <string name="cancel_btn_text">取消</string>
+    <string name="save_success">保存成功!</string>
+    <string name="modify_success">修改成功!</string>
+
+    <!--设置相关-->
+    <string name="change_pwd_title">修改密码</string>
+    <string name="logout_text">退出登录</string>
+
+    <!--历史相关-->
+    <string name="start_time_hint">开始日期</string>
+    <string name="end_time_hint">结束日期</string>
+    <string name="search_text">搜索</string>
+    <string name="view_page_title">日报详情</string>
+
+    <!--关于我们-->
+    <string name="about_project_title">关于项目</string>
+    <string name="about_project_info">公司日报项目,客户端使用Android java原生开发,MVVM框架以及其它优秀第三方库,服务端使用Servlet开发.仅作为学习参考使用.</string>
+    <string name="about_author_title">关于作者</string>
+    <string name="about_author_info">关于作者介绍</string>
+    <string name="about_version_title">版本信息</string>
+    <string name="about_version_info">V1.0.0</string>
+
+    <!--周报-->
+    <string name="this_week_daily_title">本周日报</string>
+    <string name="last_week_daily_title">上周日报</string>
+
+    <string name="no_data">暂无数据</string>
+    <string name="press_once_to_exit">再按一次退出</string>
+
+</resources>

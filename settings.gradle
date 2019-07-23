@@ -1,1 +1,1 @@
-include ':app_demo', ':base',':common', ':simple_demo'
+include ':app_demo', ':base',':common', ':simple_demo', ':workingdaily'
